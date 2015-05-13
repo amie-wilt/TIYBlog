@@ -1,11 +1,42 @@
+/*
+
+colors:
+   dark-grey:  #39474e;
+   light-grey: #aaafbf;
+
+*/
+
+
 body {
+    color: #555;
     font-family: sans-serif;
+}
+
+.header-container {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.iron-yard-logo {
+    position: absolute;
+    background: #231f20;
+    color: white;
+    border-radius: 100%;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    bottom: -60px;
+    left: 200px;
+    border: 5px solid white;
 }
 
 .main-section-container {
     display: table;
     width: 100%;
-    max-width: 75%;
     margin-right: auto;
 }
 
@@ -17,7 +48,7 @@ body {
 
 .middle-section-container {
     width: 40%;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .sidebar-left-container,
@@ -25,6 +56,114 @@ body {
     width: 30%;
 }
 
+.sidebar-search-container {
+    width: 50%;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.sidebar-heading {
+    color: #39474e;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sidebar-description {
+    color: #aaafbf;
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: serif;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.search-bar-heading {
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #aaafbf;
+    font-weight: 900;
+}
+
+.searchbar {
+    width: 100%;
+    height: 20px;
+}
+
+.sidebar-right-container {
+    vertical-align: bottom;
+}
+
+.main-heading {
+    font-size: 2.5em;
+    line-height: 1.5;
+    color: #39474e;
+}
+
 .byline {
+    color: #39474e;
+    font-size: 20px;
     font-style: italic;
+    font-family: serif;
+}
+
+.iron-yard-link {
+    text-decoration: none;
+    color: #4f8cbd;
+}
+
+.blog-pic-wrapper {
+    margin: 30px 0 0 0;
+}
+
+.post-wrapper {
+    border-radius: 3px;
+    box-shadow: -2px 1px 2px #999;
+    font-size: 14px;
+    max-width: 300px;
+    margin-bottom: 10px;
+    color: #39474e;
+}
+
+.post-title {
+    font-size: 16px;
+    font-weight: 900;
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid #999;
+}
+
+.post-info-wrapper {
+    display: table;
+    width: 100%;
+    vertical-align: top;
+}
+
+.iron-yard-photo {
+    margin: 5px 10px;
+}
+
+.iron-yard-photo,
+.post-text-wrapper,
+.follow-button {
+    display: table-cell;
+}
+
+.post-text-wrapper {
+    line-height: 0.25;
+    vertical-align: top;
+}
+
+.post-location {
+    color: #aaafbf;
+}
+
+.follow-button {
+    margin-bottom: 10px;
+    background-color: #559fca;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: none;
+    vertical-align: middle;
+    border-radius: 2px;
 }
