@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+.main-section-container {
+    display: table;
+    width: 100%;
+    max-width: 75%;
+    margin-right: auto;
+}
+
+.sidebar-left-container,
+.middle-section-container,
+.sidebar-right-container {
+    display: table-cell;
+}
+
+.middle-section-container {
+    width: 40%;
+    margin: 0 20px;
+}
+
+.sidebar-left-container,
+.sidebar-right-container {
+    width: 30%;
+}
+
+.byline {
+    font-style: italic;
+}
